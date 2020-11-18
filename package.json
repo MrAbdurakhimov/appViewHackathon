@@ -1,0 +1,19 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "push": "git add * && git commit -m 'Cool' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrAbdurakhimov/appViewHackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrAbdurakhimov/appViewHackathon/issues"
+  },
+  "homepage": "https://github.com/MrAbdurakhimov/appViewHackathon#readme"
+}
