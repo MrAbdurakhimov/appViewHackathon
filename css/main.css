@@ -15,14 +15,17 @@ body {
   border: none !important;
 }
 .carousel-indicators li {
-  width: 20px !important;
-  height: 20px !important;
+  transition: 0.5s all;
+  width: 12px !important;
+  height: 12px !important;
   border: none !important;
-  border-radius: 100% !important;
+  border-radius: 12px !important;
   opacity: 1 !important;
 }
 .carousel-indicators li.active {
+  transition: 0.5s all;
   background-color: #6349ff;
+  width: 32px !important;
 }
 .heading {
   padding: 20px 30px 10px 30px;
