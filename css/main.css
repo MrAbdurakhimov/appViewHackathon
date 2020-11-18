@@ -38,7 +38,7 @@ body {
 }
 
 .btn {
-  display: block;
+  display: block !important;
   margin: 15px 30px;
   padding: 8px;
   border-radius: 15px;
@@ -61,9 +61,6 @@ body {
   background: #6349ff !important;
   box-shadow: 0px 0px 26px rgba(99, 73, 255, 0.25);
   color: #fff !important;
-}
-.btn-secondary:active {
-  opacity: none !important;
 }
 
 #yourBtn {
