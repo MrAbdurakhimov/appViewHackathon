@@ -63,7 +63,7 @@ body {
   color: #fff !important;
 }
 .btn-secondary:active {
-  opacity: 1;
+  opacity: none !important;
 }
 
 #yourBtn {
