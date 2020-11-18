@@ -45,17 +45,19 @@
       />
       <br />
       <div class="row">
-        <div id="yourBtn" class="col-6" onclick="getFile()">
-          <img src="img/camera.svg" alt="" />
-        </div>
-        <div style="display: none">
-          <input
-            id="upfile"
-            type="file"
-            multiple
-            value="upload"
-            onchange="sub(this)"
-          />
+        <div class="col-6">
+          <div id="yourBtn" onclick="getFile()">
+            <img src="img/camera.svg" alt="" />
+          </div>
+          <div style="display: none">
+            <input
+              id="upfile"
+              type="file"
+              multiple
+              value="upload"
+              onchange="sub(this)"
+            />
+          </div>
         </div>
         <p class="col-6" style="padding: 15px">
           Profilingiz uchun rasm yuklang.
